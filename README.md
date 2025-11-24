@@ -23,5 +23,5 @@ This project is an end-to-end Data Engineering pipeline built on **Databricks** 
 ![Gold Layer Report](gold_layer_report.png)
 
 **Time Travel (Data Recovery):**
-![Time Travel Proof](<img width="1898" height="916" alt="image" src="https://github.com/user-attachments/assets/902da30a-3b1a-4674-aeba-e1c3a463e15c" />
+![Time Travel Proof](https://github.com/ntokozo078/databricks-medallion-sales-pipeline/blob/main/Screenshot%202025-11-24%20183014.png?raw=true
 )
