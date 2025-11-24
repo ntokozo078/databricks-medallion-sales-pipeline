@@ -20,8 +20,7 @@ This project is an end-to-end Data Engineering pipeline built on **Databricks** 
 
 ## Key Results
 **Gold Layer (Business Report):**
-![Gold Layer Report](gold_layer_report.png)
+![Gold Layer Report](https://github.com/ntokozo078/databricks-medallion-sales-pipeline/blob/main/Screenshot%202025-11-24%20183014.png?raw=true)
 
 **Time Travel (Data Recovery):**
-![Time Travel Proof](https://github.com/ntokozo078/databricks-medallion-sales-pipeline/blob/main/Screenshot%202025-11-24%20183014.png?raw=true
-)
+![Time Travel Proof](https://github.com/ntokozo078/databricks-medallion-sales-pipeline/blob/main/Screenshot%202025-11-24%20183058.png?raw=true)
