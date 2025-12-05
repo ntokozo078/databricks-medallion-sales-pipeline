@@ -63,19 +63,3 @@ gold_df.write.format("delta").mode("overwrite").saveAsTable("gold_sales_report")
 
 # 4. Display the result
 display(gold_df)
-
-# COMMAND ----------
-
-# MAGIC %sql
-# MAGIC -- 1. Delete data accidently (Simulating a mistake)
-# MAGIC DELETE FROM silver_sales WHERE Country = 'United States';
-# MAGIC
-# MAGIC -- 2. Prove it's gone
-# MAGIC SELECT count(*) as US_Rows_After_Delete FROM silver_sales WHERE Country = 'United States';
-# MAGIC
-# MAGIC -- 3. RESTORE (Time Travel) - Undoing the mistake
-# MAGIC -- If you get a ConcurrentWriteException, wait for a few seconds and retry this command.
-# MAGIC RESTORE TABLE silver_sales TO VERSION AS OF 0;
-# MAGIC
-# MAGIC -- 4. Prove it's back
-# MAGIC SELECT count(*) as US_Rows_Restored FROM silver_sales WHERE Country = 'United States';
